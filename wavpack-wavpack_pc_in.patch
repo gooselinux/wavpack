@@ -1,0 +1,10 @@
+--- wavpack.pc.in	2006-12-14 23:55:15.000000000 +0300
++++ wavpack.pc.in	2006-12-14 23:57:17.000000000 +0300
+@@ -7,5 +7,5 @@
+ Version: @PACKAGE_VERSION@
+ Requires:
+ Conflicts:
+-Libs: -L${libdir} -lwavpack -lm @ICONV@
+-Cflags: -I${includedir}
++Libs: -lwavpack -lm @ICONV@
++Cflags: 
